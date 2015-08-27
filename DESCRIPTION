@@ -1,8 +1,10 @@
 Package: DLr
-Title: What the Package Does (one line, title case)
+Title: Generate a vector represents the word in corpus
 Version: 0.0.0.9000
 Authors@R: person("Yu", "Liang", email = "liangyu.teq@gmail.com", role = c("aut", "cre"))
 Description: What the package does (one paragraph)
 Depends: R (>= 3.2.0)
 License: What license is it under?
 LazyData: true
+Imports: dplyr,RMySQL
+Suggests: testthat
